@@ -1,0 +1,261 @@
+<html lang="en">
+<html>
+
+<head>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177412/Drawing_jxvegx.png" width="80px">
+  <link href='https://fonts.googleapis.com/css?family=Bitter|Yanone+Kaffeesatz:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="images" href="/Users/syedraza/Desktop/SibRaza.com/CSS/Images">
+  <link rel="javascript" href="/Users/syedraza/Desktop/js/app.js">
+  <link rel="php" href="/Users/syedraza/Desktop/SibRaza.com/form.php">
+  <link rel="video" href="/Users/syedraza/Desktop/SibRaza.com/Videos/video.mp4">
+<!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <title> Sib Raza </title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.0/Chart.min.js"></script>
+
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="background-wrap">
+          <video id="video-bg-elem" width="20" preload="auto" autoplay="true" loop="loop" muted="muted">
+      <source src="https://res.cloudinary.com/dvrqqa6ja/video/upload/v1463177492/video_w84mx4.mp4" type="video/mp4">
+        Vide Not Supported
+      </video>
+        </div>
+      </div>
+      <a href="index.html"><img class="logo" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177412/Drawing_jxvegx.png" width="80px" height="auto" /></a>
+      <nav>
+        <div class="nav">
+          <ul class="nav nav-pills">
+            <li><a class="navbar" href="index.html">Home</a></li>
+            <li><a class="navbar" href="#tagline">About Me</a></li>
+            <li><a class="navbar" id="contacts" href="#sidebar">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="headings">
+          <span>
+    <h1 class="intro"> Sib Raza </h1>
+  </span>
+          <span>
+    <h2 class="kicker"> Product Manager </h2>
+  </span>
+  <button class = "resume"> <a id = "resume_link" href="resume/SibRaza_Resume.pdf" target = "_blank">My Resume</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="sidebar">
+    <a href="index.html"><img class="logos" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177412/Drawing_jxvegx.png" width="80px" height="auto" /></a>
+    <ul class="sides">
+      <li class="side"><a class="things" href="index.html"> Home</a></li>
+      <li class="side"><a class="things" href="#tagline"> About Me</a></li>
+      <li class="side"><a class="things" href=#connect> Contact Me</a></li>
+    </ul>
+    <hr>
+    <h3 class="call"> Interested? Send me an email about your project and let's work together.</h3>
+    <div class="connect" id="connect">
+      <form class="contact" name="form" method="post" action="form.php">
+        <label for="name"> Name* </label><br>
+        <input class="text" placeholder="First and Last Name" name="name" type="text" required/>
+        <br></br>
+
+        <form class="email" name="form" method="post">
+          <label for="name"> Email* </label><br>
+          <input class="text" placeholder="Enter Email Address Here " name="email" type="text" required/>
+          <br></br>
+
+          <form class="message" name="form" method="post">
+            <label for="name">Tell Me About Your Project*</label><br>
+            <textarea class="text" placeholder="Description of what your project is about" name="message" required></textarea>
+            <br></br>
+
+            <input class="submit" name="submit" type="submit" value="Submit" />
+          </form>
+    </div>
+  </div>
+  <section>
+    <div class="container-fluid">
+      <div class="slideanim" id="tagline">
+        <div class="primary">
+          <div class="row">
+            <h3 class="me-section"> About Me </h3>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img class="pencil" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177411/codes_vrpog0.png" />
+            </div>
+            <div class="col-md-4">
+              <img class="me" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177412/m2_obfutd.jpg" />
+            </div>
+            <div class="col-md-4">
+              <img class="web" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177412/pencil_cnn9mp.png" />
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="secondary slideanim">
+          <div class="row">
+            <p><em>I design, build, and create elegant applications and websites.</em> I am currently a Master's Degree Seeking Student in Computer Science. I have diverse experience in front end and back end development. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class ="charting">
+  <h3 class="skills slideanim"> What I'm good at: </h3>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="charts slideanim">
+        <canvas id="myChart" width="400" height="400">
+</canvas>
+      </div>
+    </div>
+  </div>
+  </section>
+  <h2>My Projects</h2>
+  <div class="projecto">
+    <h3 class="text-center act"> Weather App<a href="#" data-toggle="modal" data-target=".pop-up-1"> </h3>
+<img src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1465839499/weather_tcjsxa.png" width="250" height="300" class="img-responsive img-rounded center-block" alt="">
+</a>
+
+<hr>
+
+<!-- Thumbnail link for lion image -->
+    <h3 class="text-center act"> Quote Generator App <a href="#" data-toggle="modal" data-target=".pop-up-2"> </h3>
+<img src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1465839498/quotes_kchdkh.png" width="250" height="300" class="img-responsive img-rounded center-block" alt="">
+</a>
+
+  <div class="modal fade pop-up-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="myLargeModalLabel-1">Weather App</h4>
+        </div>
+        <div class="modal-body">
+         <p data-height="400" data-theme-id="0" data-slug-hash="KMzwWR" data-default-tab="result" data-user="sibraza" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/sibraza/pen/KMzwWR/">Weather App</a> by Sib Raza (<a href="https://codepen.io/sibraza">@sibraza</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal mixer image -->
+
+ <!--  Modal content for the lion image example -->
+  <div class="modal fade pop-up-2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="myLargeModalLabel-2">Quote Generator App</h4>
+        </div>
+        <div class="modal-body">
+        <p data-height="400" data-theme-id="0" data-slug-hash="KMPzxx" data-default-tab="result" data-user="sibraza" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/sibraza/pen/KMPzxx/">Quote Genereator</a> by Sib Raza (<a href="https://codepen.io/sibraza">@sibraza</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal mixer image -->
+  </div>
+
+
+
+  <div class="section">
+    <div class="container-fluid">
+      <h2 class="services"> My Freelance Services </h2>
+      <div class="row service-row slideanim">
+        <div class="col-lg-4 col-md-4">
+          <img class="mid1 img-responsive" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177411/Code_idub6v.png" />
+          <h3> Web Development </h3>
+          <p>Your website completely tailored to your needs. It's very important that your website delivers clear and perfect content. I keep this ideal mindset in mind when creating your website. </p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <img class="mid1b img-responsive" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177412/mobile_ike7mt.png" />
+          <h3> Responsive Design </h3>
+          <p> Most of the internet traffic comes from a smaller mobile screen. It is important that your website is reponsive enough to fit these smaller screens. Capture a larger audience by being flexible enough for it to display on all screens. </p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <img class="mid1c img-responsive" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177411/Analytics_mvvtv6.png" />
+          <h3> Analytics </h3>
+          <p> Learn about where your visitors are coming from and deliver an effective business plan. Learn what search terms they are using to find you. </p>
+        </div>
+      </div>
+      <div class="row slideanim">
+        <div class="col-lg-4 col-md-4">
+          <img class="mid1 img-responsive" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177411/domain_y8qp9x.png" />
+          <h3> Domain Hosting </h3>
+          <p>Focus on what matters to you the most: Delivering your product. Let me worry about hosting your website and finding a server that will meet you needs. </p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <img class="mid1b img-responsive" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177412/Customer_hmdfns.png" />
+          <h3> Customer Service </h3>
+          <p> Receive unmatched customer service. When you have a question or concern, I am availble around the clock. I only build websites that fit your needs. Be assured that you will be taken care of by a real person.</p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <img class="mid1c img-responsive" src="https://res.cloudinary.com/dvrqqa6ja/image/upload/v1463177412/Search_zpvfje.png" />
+          <h3> SEO </h3>
+          <p> When I create websites, I keep in mind on using the best SEO practices to allow your website to rank higher. As my network expands, I will continue to create more traffic for your website. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer class="slideanim">
+    <div class="row">
+    <h2> Still Interested? <a href="#sidebar" id="reach"> Reach Out. </a> </h2>
+    </div>
+    <div class="row">
+      <div class="icons">
+    <ul class="social">
+        <li><a href="https://www.linkedin.com/in/syed-raza-374a1a89" class="button social"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/sibraza15" class="button social"><i class="fa fa-fw fa-github"></i></a></li>
+        <li><a href="https://codepen.io/sibraza/" class="button social"><i class="fa fa-fw fa-codepen"></i></a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="row">
+    <h3 class="thanks"> Special thanks to icons8 for making some <a href="https://icons8.com/">awesome icons</a></h3>
+    </div>
+  </footer>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#contacts').click(function(e){
+        e.preventDefault();
+        $('#sidebar').toggleClass('visible');
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('#reach').click(function(e){
+        e.preventDefault();
+        $('#sidebar').toggleClass('visible');
+      });
+    });
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,382 @@
+html {
+  overflow-x: hidden;
+ }
+hr{
+  width: 90%;
+}
+.secondary{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+   width: 80%;
+  margin-left: 80px;
+}
+
+footer{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin: 0px;
+}
+.headings{
+  padding: 200px;
+  color: #fff;
+}
+.resume{
+  text-align: center;
+  margin-left: 45%; 
+  background: black; 
+  color: white; 
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 300;
+  transition: all 0.2s;
+}
+#resume_link{
+  text-decoration: none;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 300;
+}
+
+.section{
+  margin-top: 100px;
+  background-color: #f0f0f5;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.jumbotron{
+  background-image: url(/Users/syedraza/Desktop/SibRaza.com/Images/background_porto.jpeg);
+  color: white;
+  background-size: cover;
+}
+
+.background-wrap{
+  position: absolute;
+  z-index: -1;
+  overflow: auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 648px;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  background-size: cover;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#video-bg-elem{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+.contact_section{
+  margin-left: 100px;
+}
+#sidebar{
+  background: #151718;
+  overflow: scroll;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  left: -250px;
+  top: 0px;
+  transition: left  0.3s  linear;
+}
+#sidebar.visible{
+  left: 0px;
+  transition: left 0.3s linear;
+  z-index: 1;
+}
+.sides{
+  margin: 0px;
+  padding: 0px;
+}
+.sides{
+  list-style: none;
+}
+.things{
+  color: #ccc;
+  border-bottom: 1px solid #111;
+  display: block;
+  width: 180px;
+  padding: 10px;
+  text-decoration: none;
+
+}
+.call{
+  color:#fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.header{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0 auto;
+  width: 100%;
+  padding-bottom: 0px;
+}
+.logo {
+  float: left;
+  margin-top: 10px;
+}
+.logos{
+  margin-bottom: 20px;
+}
+.navbar{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  width: 100%;
+  position: fixed;
+}
+  nav {
+    float: right;
+    margin-top: 26px;
+  }
+.navbar:hover{
+  text-decoration: underline;
+}
+.charts{
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+span{
+  width: 100%;
+}
+h1{
+  z-index: 1;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  clear: both;
+}
+h2{
+  z-index: 1;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  clear: both;
+  padding-top: -5px;
+}
+
+.container-fluid{
+  padding: 0px;
+  padding-right: 0;
+}
+
+.port{
+  color: #ffffff;
+  margin-top:450px;
+  margin-right: 1200px;
+}
+.portfolio{
+  width: 300px;
+  height: 250px;
+}
+.padding{
+  padding-left: 46px;
+
+}
+.one{
+  margin-top: 46px;
+}
+.two{
+  margin-top: 46px;
+}
+.three{
+  margin-top: 46px;
+}
+.four{
+  margin-top: 46px;
+}
+.services{
+  margin-bottom: 40px;
+}
+.service-row{
+  margin-bottom: 20px;
+}
+/*mid*/
+.middy{
+  margin-top: 150px;
+  font-size: 36px;
+  color: #333333;
+  font-weight: 400px;
+}
+.mid1{
+  padding-left: 0;
+  margin-left: 0;
+}
+.mid2a{
+  margin-right: 0;
+  padding-right: 0;
+}
+/*footer*/
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.thanks{
+  margin-top: 40px;
+  font-size: 12px;
+  text-align: center;
+}
+.footy{
+  color: #fff;
+}
+h3{
+  color: #fff;
+}
+div.col-lg-4 {
+  padding-left: 100px;
+}
+.connect{
+  margin-top: 40px;
+  margin-left: 10px;
+}
+div.social{
+  float: left;
+  margin-top: 20px;
+}
+a.social{
+  margin-right: 15px;
+}
+label {
+  color: #fff;
+}
+input.text{
+  height: 20px;
+  width: 80%;
+  border-radius: 3px;
+  border: none;
+}
+textarea.text{
+  height: 200px;
+  width: 80%;
+  border-radius: 3px;
+  border: 0;
+  color: #000000;
+}
+.social{
+  text-align: center;
+  margin:0 auto;
+}
+.social li{
+  list-style: none;
+  display:inline-block;
+}
+input.submit{
+  width: 60px;
+  height: 20px;
+  background-color: #fff;
+  color: #183951;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+input.submit:hover{
+  text-decoration: underline;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+.charting{
+  background-color:#f0f0f5;
+}
+ #tagline{
+  margin-top: 100px;
+}
+input.text:hover{
+  background-color: #000000;
+  color: #fff;
+}
+textarea.text:hover{
+  color: #fff;
+  background-color: #000000;
+}
+
+#sidebar{
+  font-family: helvetica;
+}
+.intro{
+  font-size: 100px;
+  margin-left: 0px;
+}
+.kicker{
+  font-size: 30px;
+}
+.pencil{
+  margin-left: 30px;
+}
+.me{
+  height: 300px;
+  width:150;
+  border-radius: 70%;
+}
+.primary{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.me-section{
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #000000;
+}
+.skills{
+text-align: center;
+vertical-align: middle;
+line-height: 90px;
+}
+.projecto{
+  margin-top: 50px;
+}
